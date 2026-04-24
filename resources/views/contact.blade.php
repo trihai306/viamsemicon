@@ -432,7 +432,6 @@
                             <div>
                                 <p class="font-bold text-gray-800 text-sm mb-1">Hotline</p>
                                 <a href="tel:0986020896" class="font-black text-brand-accent text-xl leading-none hover:underline block">0986 020 896</a>
-                                <a href="tel:0528152831" class="font-semibold text-brand-main text-sm mt-1 inline-block hover:underline">0528.152.831</a>
                                 <p class="text-xs text-gray-400 mt-1">Alex Nguyen • Thứ 2 - Thứ 7, 8:00 - 18:00</p>
                             </div>
                         </div>

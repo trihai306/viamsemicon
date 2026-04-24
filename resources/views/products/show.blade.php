@@ -466,11 +466,6 @@
                                 <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                                 0986 020 896
                             </a>
-                            <a href="tel:0528152831"
-                               class="flex items-center justify-center gap-1.5 px-3 py-2.5 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl transition-all text-xs border border-white/20">
-                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                                0528 152 831
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -629,16 +624,6 @@
                             <div>
                                 <div class="font-bold text-gray-800 group-hover:text-brand-main transition-colors">0986 020 896</div>
                                 <div class="text-xs text-gray-500">Gọi ngay — Phản hồi trong 5 phút</div>
-                            </div>
-                        </a>
-                        <a href="tel:0528152831" class="flex items-center gap-4 p-4 bg-blue-50 rounded-xl hover:bg-blue-100 transition-colors group">
-                            <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 text-white"
-                                 style="background: linear-gradient(135deg, #1a56db, #3b82f6);">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                            </div>
-                            <div>
-                                <div class="font-bold text-gray-800 group-hover:text-brand-main transition-colors">0528 152 831</div>
-                                <div class="text-xs text-gray-500">Hotline hỗ trợ kỹ thuật</div>
                             </div>
                         </a>
                         <a href="mailto:sale@viamsemicon.com" class="flex items-center gap-4 p-4 bg-red-50 rounded-xl hover:bg-red-100 transition-colors group">

@@ -34,7 +34,7 @@ class ScrapedDataSeeder extends Seeder
             ['group' => 'general', 'key' => 'company_name', 'value' => 'Công ty TNHH VIAM GLOBAL', 'type' => 'text'],
             ['group' => 'general', 'key' => 'address', 'value' => 'Số 251 Đường Dục Tú, Xã Dục Tú, Huyện Đông Anh, Thành phố Hà Nội, Việt Nam', 'type' => 'text'],
             ['group' => 'general', 'key' => 'phone', 'value' => '0986020896', 'type' => 'text'],
-            ['group' => 'general', 'key' => 'hotline', 'value' => '0528152831', 'type' => 'text'],
+            ['group' => 'general', 'key' => 'hotline', 'value' => '0886160579', 'type' => 'text'],
             ['group' => 'general', 'key' => 'email', 'value' => 'sale@viamsemicon.com', 'type' => 'text'],
             ['group' => 'general', 'key' => 'contact_person', 'value' => 'Alex Nguyen', 'type' => 'text'],
             ['group' => 'general', 'key' => 'zalo', 'value' => '0335488393', 'type' => 'text'],
@@ -43,7 +43,7 @@ class ScrapedDataSeeder extends Seeder
             ['group' => 'social', 'key' => 'twitter', 'value' => '#', 'type' => 'text'],
             ['group' => 'social', 'key' => 'youtube', 'value' => '#', 'type' => 'text'],
             ['group' => 'seo', 'key' => 'seo_title', 'value' => 'Viam Semicon - Thiết bị đo lường, Robot vận chuyển, RF Cable & Adapters', 'type' => 'text'],
-            ['group' => 'seo', 'key' => 'seo_description', 'value' => 'Viam Semicon cung cấp thiết bị đo lường, robot vận chuyển, RF Cable & Adapters chất lượng cao. Hotline: 0528.152.831', 'type' => 'text'],
+            ['group' => 'seo', 'key' => 'seo_description', 'value' => 'Viam Semicon cung cấp thiết bị đo lường, robot vận chuyển, RF Cable & Adapters chất lượng cao. Hotline: 0886 160 579', 'type' => 'text'],
             ['group' => 'seo', 'key' => 'seo_keywords', 'value' => 'thiết bị đo lường, robot vận chuyển, RF cable, adapter, Viam Semicon', 'type' => 'text'],
         ];
 
