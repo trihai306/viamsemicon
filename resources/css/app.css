@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --color-primary-50: #eff6ff;
+    --color-primary-100: #dbeafe;
+    --color-primary-200: #bfdbfe;
+    --color-primary-300: #93c5fd;
+    --color-primary-400: #60a5fa;
+    --color-primary-500: #2b6cb0;
+    --color-primary-600: #1a365d;
+    --color-primary-700: #1e3a5f;
+    --color-primary-800: #153e75;
+    --color-primary-900: #0f2942;
+    --color-accent: #e53e3e;
+}
+
+@layer base {
+    html { scroll-behavior: smooth; }
+}
+
+@layer components {
+    .product-card {
+        @apply bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary-300 group;
+    }
+    .product-card-image {
+        @apply relative overflow-hidden aspect-square;
+    }
+    .product-card-image img {
+        @apply w-full h-full object-cover transition-transform duration-500 group-hover:scale-110;
+    }
+    .btn-primary {
+        @apply inline-flex items-center px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200;
+    }
+    .btn-accent {
+        @apply inline-flex items-center px-6 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-red-700 transition-colors duration-200;
+    }
+    .section-title {
+        @apply text-2xl md:text-3xl font-bold text-primary-600 relative pb-3 mb-8;
+    }
+    .section-title::after {
+        content: '';
+        @apply absolute bottom-0 left-0 w-16 h-1 bg-accent rounded;
+    }
+}
