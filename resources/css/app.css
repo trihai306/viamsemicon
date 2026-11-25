@@ -27,13 +27,16 @@
 
 @layer components {
     .product-card {
-        @apply bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary-300 group;
+        @apply bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-primary-300;
     }
     .product-card-image {
         @apply relative overflow-hidden aspect-square;
     }
     .product-card-image img {
-        @apply w-full h-full object-cover transition-transform duration-500 group-hover:scale-110;
+        @apply w-full h-full object-cover transition-transform duration-500;
+    }
+    .product-card:hover .product-card-image img {
+        @apply scale-110;
     }
     .btn-primary {
         @apply inline-flex items-center px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200;
